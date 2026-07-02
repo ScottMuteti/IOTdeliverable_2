@@ -44,7 +44,7 @@ In line with the requirements of Semester Project Deliverable 2, our group const
 
 - **Structural Overview:** A single ESP32S DevKit acts as the central controller for the greenhouse workspace, reading analog voltage from the MQ-5 sensor and single-wire serial data from the DHT22.
 - **Local Interface Output:** Sensor data is rendered locally on an SH1106-driven 1.3" OLED display via I²C (SDA/SCL).
-- **Reference Link:** `[Insert Public Wokwi URL for Architecture A]`
+- **Reference Link:** [Wokwi URL for Architecture A](https://wokwi.com/projects/467656267856992257)
 
 ### 4.2 Architecture B: Cross-Serial Dual-MCU Subsystem
 
@@ -57,8 +57,8 @@ In line with the requirements of Semester Project Deliverable 2, our group const
 - **Structural Overview:** Uses 2 independent ESP32S modules separated by a 5V single-channel low-level trigger relay, preventing electrical noise propagation between the higher-draw sensor sub-circuits.
 - **Inter-Device Interfacing:** The DHT22-driving MCU activates the relay coil by pulling the logic line LOW (0–1.5V), opening or closing the data path to the MQ-5 subsystem.
 - **Reference Links:**
-  - `[Insert Public Wokwi URL — simulatable version]`
-  - `[Insert Public Wokwi URL — intended 2-ESP32S structure]`
+  - [Wokwi URL — simulatable version](https://wokwi.com/projects/468326525605797889)
+  - [Wokwi URL — intended 2-ESP32S structure](https://wokwi.com/projects/468143398278605825)
 
 ---
 
@@ -66,7 +66,7 @@ In line with the requirements of Semester Project Deliverable 2, our group const
 
 ### 5.1 Architecture B Technical Analysis
 
-As documented in our team's coordination logs (see **image.png**), the physical deployment of Architecture B presented hardware debugging challenges prior to submission.
+As documented in our team's coordination logs, the physical deployment of Architecture B presented hardware debugging challenges prior to submission.
 ```
 [ Hardware Code Compilation and Firmware Upload: SUCCESSFUL ]
 [ Serial Data Output: CORRUPTED / INVALID CHARACTERS ENCOUNTERED ]
@@ -98,28 +98,28 @@ The team worked through the following interventions to resolve the transmission 
 
 **Architecture A**
 
-![Architecture A image 1](images/architecture_a_1.jpg)
+![Architecture A image 1](images/architecture_a_1.jpeg)
 
-![Architecture A image 2](images/architecture_a_2.jpg)
+![Architecture A image 2](images/architecture_a_2.jpeg)
 
-**Wokwi Link:** `[Insert Public Wokwi URL for Architecture A]`
+**Wokwi Link:** [Wokwi URL for Architecture A](https://wokwi.com/projects/467656267856992257)
 
 **Architecture B**
 
-![Architecture B image 1](images/architecture_b_1.jpg)
+![Architecture B image 1](images/architecture_b_1.jpeg)
 
-![Architecture B image 2](images/architecture_b_2.jpg)
+![Architecture B image 2](images/architecture_b_2.jpeg)
 
-![Architecture B code used](images/architecture_b_code.jpg)
+![Architecture B code used](images/architecture_b_code.jpeg)
 
 **Architecture C**
 
 **Wokwi Links:**
-- `[Insert Public Wokwi URL — simulatable version]`
-- `[Insert Public Wokwi URL — intended 2-ESP32S structure]`
+- [Wokwi URL — simulatable version](https://wokwi.com/projects/468326525605797889)
+- [Wokwi URL — intended 2-ESP32S structure](https://wokwi.com/projects/468143398278605825)
 
 ### 6.2 Evidence of Group Work
 
-Consistent with the group's workflow from Deliverable 1, technical troubleshooting, driver adjustments, and simulation reviews were coordinated collectively during virtual sessions by Scott, Samuel, Alysa, Abraham, Fatuma, and Nicole. As documented in **image.png**, breadboard issues were reviewed transparently as a group, leading to the decision to implement the interchangeable Wokwi workspace for Architecture C to maintain project compliance.
+Consistent with the group's workflow from Deliverable 1, technical troubleshooting, driver adjustments, and simulation reviews were coordinated collectively during virtual sessions by Scott, Samuel, Alysa, Abraham, Fatuma, and Nicole. As documented in **image.png**, physical implementation was reviewed transparently as a group.
 
-![Group physical session coordinating physical implementation](images/image.png)
+![Group physical session coordinating physical implementation](images/image.jpeg)
