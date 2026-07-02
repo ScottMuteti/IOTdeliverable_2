@@ -98,19 +98,19 @@ The team worked through the following interventions to resolve the transmission 
 
 **Architecture A**
 
-![Architecture A image 1](IOTdeliverable_2/architecture_a_1.jpeg)
+![Architecture A image 1](architecture_a_1.jpeg)
 
-![Architecture A image 2](IOTdeliverable_2/architecture_a_2.jpeg)
+![Architecture A image 2](architecture_a_2.jpeg)
 
 **Wokwi Link:** [Wokwi URL for Architecture A](https://wokwi.com/projects/467656267856992257)
 
 **Architecture B**
 
-![Architecture B image 1](IOTdeliverable_2/architecture_b_1.jpeg)
+![Architecture B image 1](architecture_b_1.jpeg)
 
-![Architecture B image 2](IOTdeliverable_2/architecture_b_2.jpeg)
+![Architecture B image 2](architecture_b_2.jpeg)
 
-![Architecture B code used](IOTdeliverable_2/architecture_b_code.jpeg)
+![Architecture B code used](architecture_b_code.jpeg)
 
 **Architecture C**
 
@@ -122,4 +122,4 @@ The team worked through the following interventions to resolve the transmission 
 
 Consistent with the group's workflow from Deliverable 1, technical troubleshooting, driver adjustments, and simulation reviews were coordinated collectively during virtual sessions by Scott, Samuel, Alysa, Abraham, Fatuma, and Nicole. As documented below, physical implementation was reviewed transparently as a group.
 
-![Group physical session coordinating physical implementation](IOTdeliverable_2/image.jpeg)
+![Group physical session coordinating physical implementation](image.jpeg)
